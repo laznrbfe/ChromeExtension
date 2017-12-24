@@ -1,12 +1,19 @@
 {
-    "name": "Hello World",
-    "version": "1.0.1",
+    // Required
     "manifest_version": 2,
+
+    "name": "测量小工具",
+    "version": "1.0.1",
+    
+
+    // Recommended 推荐
     "description": "The first extension that I made.",
     "browser_action": {
         "default_icon": "icon.png",
-        "popup": "popup.html"
+        "default_popup": "popup.html"
     },
+    // Optional
+    "author": "laznrbfe",
     "permissions": [
         "https://www.github.com/"
     ]
